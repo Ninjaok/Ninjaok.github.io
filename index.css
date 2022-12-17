@@ -1,1 +1,50 @@
+html,
+body {
+  background: url(index_background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+hr {
+    margin: auto;
+    opacity: 1;
+    border: 5px solid rgb(0, 37, 37);
+    border-radius: 5px;
+    max-width: 60px;
+}
+
+h1 {
     font-size: 3rem;
+    color:rgba(255, 255,255, 0.8);
+
+}
+
+.buffer {
+    height: 10rem;
+}
+
+h4 {
+    font-size: small;
+    font-weight: bold;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+}
+.btn {
+    font-weight: 700px;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: rgb(0, 63, 63);
+    border: rgb(0, 37, 37);
+    margin: 10px;
+}
+.btn-primary:hover {
+    background-color: rgb(0, 50, 50);
+    border: rgb(0, 37, 37);
+    border-width: 4px;
+}
